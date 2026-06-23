@@ -1,0 +1,14 @@
+{
+  "name": "flashbots-bundle",
+  "version": "1.0.0",
+  "description": "Flashbots bundle for OpenspaceNFT presale on Sepolia",
+  "main": "deploy-and-bundle.js",
+  "scripts": {
+    "start": "node deploy-and-bundle.js",
+    "bundle-only": "node bundle-only.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "solc": "^0.8.26"
+  }
+}
